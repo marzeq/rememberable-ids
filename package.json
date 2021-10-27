@@ -1,0 +1,17 @@
+{
+  "name": "rememberable-ids",
+  "version": "1.0.1",
+  "description": "Generate random rememberable IDs",
+  "main": "index.js",
+  "repository": "https://github.com/marzeq/rememberable-ids",
+  "scripts": {},
+  "keywords": [
+    "id",
+    "ids",
+    "uuid"
+  ],
+  "author": "marzeq",
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "dependencies": {}
+}
