@@ -4,7 +4,7 @@ const nouns = require("./nouns.json")
 module.exports = () => {
     const adjective = adjectives[Math.floor(Math.random() * adjectives.length)]
     const noun = nouns[Math.floor(Math.random() * nouns.length)]
-    const randomNumber = Math.floor(Math.random() * 1000 + 1)
+    const randomNumber = Math.floor(Math.random() * 2000 + 1)
 
     return `${randomNumber}-${adjective}-${noun}s`
 }
